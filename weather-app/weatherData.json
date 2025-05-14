@@ -1,0 +1,45 @@
+{
+ "currentWeather": {
+   "oras": "București",
+   "temperaturaC": 22.5,
+   "temperaturaF": 72.5,
+   "descriere": "Cer senin",
+   "umiditate": 60,
+   "vant": "12 m/s - sud-vest",
+   "rasarit": "06:45",
+   "apus": "20:30",
+   "mesaj": "O zi plăcută!"
+ },
+ "peOre": [
+   {
+     "data": "2025-05-14 14:00:00",
+     "temperaturaC": 23.1,
+     "descriere": "Parțial noros",
+     "umiditate": 62,
+     "vant": "15 m/s - sud"
+   },
+   {
+     "data": "2025-05-14 15:00:00",
+     "temperaturaC": 24.0,
+     "descriere": "Noros",
+     "umiditate": 65,
+     "vant": "14 m/s - sud-vest"
+   }
+ ],
+ "peZile": [
+   {
+     "data": "Luni, 15 Mai",
+     "temperaturaC": 24.0,
+     "descriere": "Cer senin",
+     "umiditate": 58,
+     "vant": "10 m/s - nord-est"
+   },
+   {
+     "data": "Marți, 16 Mai",
+     "temperaturaC": 22.0,
+     "descriere": "Parțial noros",
+     "umiditate": 60,
+     "vant": "12 m/s - sud"
+   }
+ ]
+}

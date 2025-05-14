@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Starea vremii</title>
+ <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+ <div class="container">
+  <h1>Starea vremii</h1>
+  <input type="text" id="cityInput" placeholder="Introdu orașul..." />
+  <button onclick="getFullWeather()">Află vremea</button>
+
+  <div id="weatherCurrent"></div>
+  <h3>🕒 Prognoză pe ore (următoarele 24h)</h3>
+  <div id="weatherHourly" class="horizontal-scroll"></div>
+
+  <h3>📅 Prognoză pe zile</h3>
+  <div id="weatherDaily" class="horizontal-scroll"></div>
+ </div>
+
+ <script src="/script.js"></script>
+</body>
+
+</html>
